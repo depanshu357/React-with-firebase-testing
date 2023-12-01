@@ -1,0 +1,75 @@
+[debug] [2023-12-01T05:48:58.653Z] ----------------------------------------------------------------------
+[debug] [2023-12-01T05:48:58.656Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-12-01T05:48:58.657Z] CLI Version:   12.9.1
+[debug] [2023-12-01T05:48:58.657Z] Platform:      win32
+[debug] [2023-12-01T05:48:58.657Z] Node Version:  v18.12.1
+[debug] [2023-12-01T05:48:58.663Z] Time:          Fri Dec 01 2023 11:18:58 GMT+0530 (India Standard Time)
+[debug] [2023-12-01T05:48:58.663Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-01T05:48:58.772Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-12-01T05:48:58.773Z] > authorizing via signed-in user (depanshusahu057@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Testing\react-with-firebase
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-12-01T05:49:06.058Z] Using project from CLI flag: react-with-firebase-3d069
+[debug] [2023-12-01T05:49:06.060Z] > refreshing access token with scopes: []
+[debug] [2023-12-01T05:49:06.063Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-12-01T05:49:06.063Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-12-01T05:49:06.552Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-12-01T05:49:06.552Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-12-01T05:49:06.563Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/react-with-firebase-3d069 [none]
+[debug] [2023-12-01T05:49:07.687Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/react-with-firebase-3d069 200
+[debug] [2023-12-01T05:49:07.687Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/react-with-firebase-3d069 {"projectId":"react-with-firebase-3d069","projectNumber":"263634380478","displayName":"React-with-firebase","name":"projects/react-with-firebase-3d069","resources":{"hostingSite":"react-with-firebase-3d069","realtimeDatabaseInstance":"react-with-firebase-3d069-default-rtdb"},"state":"ACTIVE","etag":"1_affddd7e-7cde-45dd-84f0-2cb235dad163"}
+[info] i  Using project react-with-firebase-3d069 (React-with-firebase) 
+[info] 
+=== Hosting Setup
+[debug] [2023-12-01T05:49:07.696Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/react-with-firebase-3d069 [none]
+[debug] [2023-12-01T05:49:08.263Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/react-with-firebase-3d069 200
+[debug] [2023-12-01T05:49:08.263Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/react-with-firebase-3d069 {"projectId":"react-with-firebase-3d069","projectNumber":"263634380478","displayName":"React-with-firebase","name":"projects/react-with-firebase-3d069","resources":{"hostingSite":"react-with-firebase-3d069","realtimeDatabaseInstance":"react-with-firebase-3d069-default-rtdb"},"state":"ACTIVE","etag":"1_affddd7e-7cde-45dd-84f0-2cb235dad163"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote build/404.html 
+[debug] [2023-12-01T05:49:33.835Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-12-01T05:49:34.268Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-12-01T05:49:34.268Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.7.0","browserURL":"https://www.gstatic.com/firebasejs/10.7.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.7.0/firebase.tgz"},"live":{"version":"10.7","browserURL":"https://www.gstatic.com/firebasejs/live/10.7/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.7/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.7.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.7.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.7.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.7.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.7.0/firebase-auth/cordova.js","functions":"https://www.gstatic.com/firebasejs/10.7.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.7.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.7.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.7.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.7.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.7.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.7.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.7.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.memory.js"}}
+[info] +  Wrote build/index.html 
+[info] 
+[info] i  Detected a .git folder at D:\Testing 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=986910419&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-12-01T05:49:43.811Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2023-12-01T05:49:43.811Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2023-12-01T05:49:44.350Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2023-12-01T05:49:44.350Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2023-12-01T05:49:44.357Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-12-01T05:49:45.019Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-12-01T05:49:45.019Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"depanshu357","id":105839016,"node_id":"U_kgDOBk75qA","avatar_url":"https://avatars.githubusercontent.com/u/105839016?v=4","gravatar_id":"","url":"https://api.github.com/users/depanshu357","html_url":"https://github.com/depanshu357","followers_url":"https://api.github.com/users/depanshu357/followers","following_url":"https://api.github.com/users/depanshu357/following{/other_user}","gists_url":"https://api.github.com/users/depanshu357/gists{/gist_id}","starred_url":"https://api.github.com/users/depanshu357/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/depanshu357/subscriptions","organizations_url":"https://api.github.com/users/depanshu357/orgs","repos_url":"https://api.github.com/users/depanshu357/repos","events_url":"https://api.github.com/users/depanshu357/events{/privacy}","received_events_url":"https://api.github.com/users/depanshu357/received_events","type":"User","site_admin":false,"name":"Depanshu Sahu","company":null,"blog":"","location":null,"email":"depanshusahu057@gmail.com","hireable":true,"bio":"Junior Undergrad in IIT Kanpur pursuing CSE","twitter_username":"DepanshuSahu3","public_repos":25,"public_gists":0,"followers":1,"following":7,"created_at":"2022-05-19T04:57:33Z","updated_at":"2023-11-01T13:11:56Z","private_gists":0,"total_private_repos":11,"owned_private_repos":11,"disk_usage":505925,"collaborators":10,"two_factor_authentication":false,"plan":{"name":"pro","space":976562499,"collaborators":0,"private_repos":9999}}
+[info] 
+[info] +  Success! Logged into GitHub as depanshu357 
+[info] 
