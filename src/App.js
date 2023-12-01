@@ -12,7 +12,7 @@ function App() {
       username: 'Depanshu Sahu',
       email: 'depanshusahu057@gmail.com',
       profile_picture : 'imageUrlofDepanshu',
-      message:'The web app has been deployed successfully'
+      message:'The web app has been deployed successfully on github pages'
     })
   }
 
